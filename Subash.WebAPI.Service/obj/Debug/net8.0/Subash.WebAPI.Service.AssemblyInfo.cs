@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Subash.WebAPI.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25bc3cd4f0c18adaedae343288fdfaa9c1aa62a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74a80e71a6ad4ea6c1a68f7eba61a02425d5f52f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Subash.WebAPI.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Subash.WebAPI.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
