@@ -1,0 +1,6 @@
+@Subash.WebAPI.Service_HostAddress = http://localhost:5041
+
+GET {{Subash.WebAPI.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
