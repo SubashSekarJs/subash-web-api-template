@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Subash.WebAPI.Service
+/Subash.WebAPI.Service/bin/Debug/net8.0
+/Subash.WebAPI.Service/obj/Debug/net8.0/ref
+/Subash.WebAPI.Service/obj/Debug/net8.0/refint
+/Subash.WebAPI.Service/obj/Debug/net8.0/staticwebassets
