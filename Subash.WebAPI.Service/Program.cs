@@ -1,10 +1,17 @@
+using Subash.WebAPI.Service.Application;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var services = builder.Services;
+services.AddHealthChecks();
+services.ConfigureServiceCollectionExtension();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly));
+
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
